@@ -104,3 +104,11 @@ input{
 .barra{
     width: 40vh;
 }
+
+.cont-text{
+    display: flex;
+}
+
+.columnasinfo{
+    height: 200px;
+}

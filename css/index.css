@@ -13,17 +13,17 @@ a {
 .unalinea{
     display: inline-flex;
     text-align: center;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .boton {
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
-
     font-weight: 700;
 }
 .botonreg{
-
     background-color: #59ea8a;
+    border: 2px solid #59ea8a;
 }
 .botoninscrip{
     margin-left: 20px;
@@ -43,16 +43,14 @@ a {
 
 nav {
     background-color: white;
-    height: 12vh;
-    font-weight: 700;
+    height: 8vh;
+    font-weight: 600;
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
 .logo {
-    width: 20vh;
-    height: auto;
+    max-height: 24px;
 }
 
 .contenedor-inicio{
@@ -64,17 +62,14 @@ nav {
 
 .linea-arriba{
     position: absolute;
-    top: 12vh;
+    top: 8vh;
     right: 0;
 }
 .linea-abajo{
-    position: absolute;
-    left: -50px;
+    position: relative;
+    float: left;
+    left: -40px;
     bottom: 0;
-}
-
-.imgcoco{
-
 }
 
 .frontal {
@@ -107,8 +102,20 @@ input{
 
 .cont-text{
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .columnasinfo{
-    height: 200px;
+    width: 20%;
+    margin: 4vh;
+    text-align: center;
+    height: 300px;
+}
+.cont-img{
+    width: 110px;
+}
+.cont-titulo{
+    font-size: x-large;
+    margin: 5vh;
 }
